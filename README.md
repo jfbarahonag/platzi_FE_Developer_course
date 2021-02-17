@@ -52,3 +52,8 @@ Is a tree integrated by the DOM & CSSOM to render in the browser the HTML & CSS 
 3. Join the trees (DOM & CSSOM) in a "big" render tree.
 4. Executes the render tree and paint it.
 5. Print the node to the screen (to the user).
+
+# Class 4
+
+<img src="https://static.platzi.com/media/user_upload/Infografia-Frontend-Javascript-86c602ef-a014-47d7-aadd-1293726d06b2.jpg" width="600" height="650
+">
