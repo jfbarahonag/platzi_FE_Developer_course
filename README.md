@@ -15,3 +15,13 @@ He found the consortium W3C to standardize the development of Internet-based tec
 In 1994 appears CSS Cascade Style Sheets.
 
 # Class 2
+
+## HTML
+Is a markup language, that allow us to structure all our websites.
+
+* https://htmlreference.io/
+
+# CSS
+Is a stylesheet language. CSS help us to stylize our website. 
+
+* https://cssreference.io/
