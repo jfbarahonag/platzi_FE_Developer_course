@@ -126,3 +126,65 @@ Some elements don´t require a content  to be used, nevertheless need some speci
 
 ## Anatomy of an html element : DOCTYPE, html, head & body
 All done in this class is shown in the file `class6.html`
+
+# Class 7
+
+## Functions of the more important HTML tags
+
+### Adding styles and/or scripts
+If you want to add JavaScript and/or CSS implementations the tags `style` and `script` must be added to the HTML code into the root tag (< html >).
+
+```
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+    /* Here goes CSS */
+</style>
+<script>
+    // Here goes JavaScript
+</script>
+<body>
+  
+</body>
+</html>
+```
+
+## List of empty elements
+
+<ul>
+    <li>img</li>
+    <li>input</li>
+    <li>br</li>
+    <li>hr</li>
+</ul>
+
+## List of semantic elements
+
+<ul>
+    <li>header</li>
+    <li>nav</li>
+    <li>article</li>
+    <li>section</li>
+    <li>aside</li>
+    <li>footer</li>
+    <li>h1...h6</li>
+</ul>
+
+## Most used elements
+<ul>
+    <li>div</li>
+    <li>button</li>
+    <li>p</li>
+    <li>a</li>
+    <li>ol</li>
+    <li>ul</li>
+    <li>li</li>
+    <li>form</li>
+</ul>
+
+<a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">More elements here</a>
