@@ -57,3 +57,67 @@ Is a tree integrated by the DOM & CSSOM to render in the browser the HTML & CSS 
 
 <img src="https://static.platzi.com/media/user_upload/Infografia-Frontend-Javascript-86c602ef-a014-47d7-aadd-1293726d06b2.jpg" width="600" height="650
 ">
+
+# Class 5
+
+## Anatomy of an html element
+
+Is composed by an *opening tag*, *content* and a *closing tag*.
+
+```<h1> Hello world </h1>```
+
+In the above example, we have an **h1** tag (h1 ~ h6).
+
+### Opening tag
+* Must contain  the name of the **element** enclosed between `<>`.
+
+### Content
+* Here is located the information will be shown.
+
+### Closing tag
+* Must contain  the name of the **element** enclosed between `</>`.
+
+## Attributes
+An attribute allow us to give an ID to the html element, then with the ID using CSS modify its characteristics.
+
+The attributes always will be located in the **opening tag**
+
+### Structure
+< element attribute="value">`
+
+E.g.:
+
+`<h1 class="greeting">`
+
+## Nesting
+Some elements could be nested to another ones. 
+
+In the following code, as you can see, < h1 > and < ul > are inside to the < body > element and < li > is nested to < ul >
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <h1>TO-DO List</h1>
+    <ul>
+        <li>Read half hour</li>
+        <li>Meet with my leader</li>
+        <li>Create a pull request</li>
+        <li>Go to the meetup</li>
+        <li></li>
+    </ul>
+</body>
+</html>
+```
+
+## Empty elements
+
+Some elements don´t require a content  to be used, nevertheless need some special attributes to render or do something as `img` element.
+
+``` <img src="image.png" alt="My image"> ```
