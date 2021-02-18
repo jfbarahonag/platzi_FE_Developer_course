@@ -60,7 +60,7 @@ Is a tree integrated by the DOM & CSSOM to render in the browser the HTML & CSS 
 
 # Class 5
 
-## Anatomy of an html element
+## Anatomy of an html element : Attributes, nesting and empty elements
 
 Is composed by an *opening tag*, *content* and a *closing tag*.
 
@@ -121,3 +121,8 @@ In the following code, as you can see, < h1 > and < ul > are inside to the < bod
 Some elements don´t require a content  to be used, nevertheless need some special attributes to render or do something as `img` element.
 
 ``` <img src="image.png" alt="My image"> ```
+
+# Class 6
+
+## Anatomy of an html element : DOCTYPE, html, head & body
+All done in this class is shown in the file `class6.html`

@@ -1,0 +1,144 @@
+<!DOCTYPE html> <!-- allow be readable by all browsers -->
+<html lang="en"> <!-- principal tag or root element --> 
+    <head>
+        <meta charset="UTF-8"> <!-- Coding -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Class 6</title> <!-- Tab's title -->
+    </head>
+    <style></style> <!-- CSS Edition -->
+    <body>
+        <!-- container Section 1 (Platzi image and buttons)-->
+        <div>
+            <!-- Put a link into the image -->
+            <a href="https://platzi.com" target="_blank">
+                <img src="https://avatars.githubusercontent.com/u/2975064?s=200&v=4" alt="Platzi" style="float:left";>
+            </a>
+            
+            <h1>Hello, world!</h1>
+            <div>
+                <button> <b>This is a bold button</b> </button> 
+                <button>this is a button</button>
+            </div>
+            <div>
+                <button>this is a button</button>
+            </div>
+            <!-- Hyperlink to the footer section (could be a website also) -->
+            <p> Click <a href="#footer">here</a> to go to the Bottom </p>
+        </div>
+        <!-- container Section 2 (Lorem ipsum) -->
+        <div>
+            <!-- Paragraphs -->
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget arcu sit amet metus sodales semper nec id augue. Fusce accumsan ex mauris. Vestibulum congue at libero ac viverra. Vivamus pellentesque est est, quis faucibus eros mollis quis. Nam vehicula dui vel lobortis molestie. In eu nunc sit amet libero gravida lobortis. Proin vel viverra arcu, a hendrerit nibh. Praesent ullamcorper ac quam a pellentesque. Aliquam nec lectus ac tellus sodales sollicitudin eu in nibh. Morbi et lobortis arcu. 
+            </p>
+            <p>
+                Donec luctus tempor ornare. Quisque risus risus, pretium nec feugiat eu, posuere nec dolor. Ut efficitur velit lorem, sed vehicula ex efficitur vitae. Curabitur eu arcu nec orci fermentum cursus ut a augue. Etiam eget convallis arcu. Nunc id mauris ante. Ut elit nibh, mollis sed ante nec, tincidunt tempor odio. Ut elit mauris, sollicitudin et quam eget, accumsan accumsan arcu. Sed diam metus, volutpat sit amet eros id, sagittis scelerisque quam. 
+            </p>
+            <p>
+                Donec luctus tempor ornare. Quisque risus risus, pretium nec feugiat eu, posuere nec dolor. Ut efficitur velit lorem, sed vehicula ex efficitur vitae. Curabitur eu arcu nec orci fermentum cursus ut a augue. Etiam eget convallis arcu. Nunc id mauris ante. Ut elit nibh, mollis sed ante nec, tincidunt tempor odio. Ut elit mauris, sollicitudin et quam eget, accumsan accumsan arcu. Sed diam metus, volutpat sit amet eros id, sagittis scelerisque quam. 
+            </p>
+            <p>
+                Etiam cursus ultricies egestas. Donec pretium eu sapien quis commodo. Aliquam eu tellus ac massa sollicitudin porttitor. Fusce in quam ante. Nunc ut leo efficitur, tempus quam et, iaculis lorem. Sed lacinia tempus lacus quis molestie. Donec pharetra feugiat dolor, quis semper leo interdum nec. Nulla facilisi. Maecenas consectetur laoreet nulla, quis rhoncus elit venenatis ac. Morbi non felis purus. Proin volutpat efficitur vehicula. Quisque vel nunc pulvinar, cursus dolor quis, eleifend massa. 
+            </p>
+            <p>
+                Aliquam ipsum libero, eleifend in tempor sit amet, interdum nec ligula. Vivamus a ex vel magna iaculis commodo at nec nibh. Suspendisse ut velit leo. Vivamus venenatis eleifend sapien id accumsan. Mauris sem elit, tempor sed mattis nec, elementum euismod metus. Nam viverra enim ut turpis malesuada, vitae tincidunt nulla maximus. Aliquam nec nisi dictum, vehicula erat eu, lacinia felis. Mauris ut porttitor lorem. Vestibulum nunc neque, porta eget elit nec, dapibus rutrum augue. In commodo magna sed felis tempus ultricies. Curabitur laoreet augue a mauris malesuada, vel accumsan sem consequat. Cras eget turpis metus. 
+            </p>
+            
+        </div>
+        <!-- container Section 3 (Various) -->
+        <div id="section_3" style="display: flex;">
+            <!-- container Section 3.1 -->
+            <div style="height: auto; 
+                        background-color: aquamarine; 
+                        padding: 10px; 
+                        flex: 33%;">
+                <form action="signup" method="POST">
+                    <!-- Radio inputs -->
+                    <p>
+                        <label>Title</label><br>
+                        <label>
+                            <input type="radio" name="Title" id="Mr">
+                        Mr            
+                        </label>
+                        <label>
+                            <input type="radio" name="Title" id="Mrs">
+                        Mrs            
+                        </label>
+                        <label>
+                            <input type="radio" name="Title" id="Miss">
+                        Miss            
+                        </label>
+                    </p>
+                    <!-- Text inputs -->
+                    <p>
+                        <label>First name</label><dl>
+                        <input type="text" name="First_name">
+                    </p>
+                    <p>
+                        <label>Last name</label><dl>
+                        <input type="text" name="Last_name">
+                    </p>
+                    <p>
+                        <label>Email</label><dl>
+                        <input type="text" name="Email">
+                    </p>
+                    <p>
+                        <label>Password</label><dl>
+                        <input type="text" name="Password">
+                    </p>
+                    <!-- ComboBox input -->
+                    <p>
+                        <label>Country</label><br>
+                        <select>
+                            <option >Colombia</option>
+                            <option >Brasil</option>
+                            <option >Venezuela</option>
+                            <option >Peru</option>
+                            <option >Argentina</option>
+                        </select>
+                    </p>
+                    <!-- CheckBox input -->
+                    <p>
+                        <label>
+                            <input type="checkbox" value="terms">
+                            <!-- Link -->
+                            I agree to the <a href="#">terms and conditions</a>
+                        </label>
+                    </p>
+                    <!-- Button options -->
+                    <p>
+                        <button>Sign up</button>
+                        <button type="reset">Reset form</button>
+                    </p>
+                </form>
+            </div>        
+            <!-- container Section 3.2 -->
+            <div style="height: auto;
+                        background-color: rgb(189, 255, 127);
+                        padding: 10px; 
+                        flex: 33%;
+                        text-align: center;">
+                <p>
+                    <h1>Do something here</h1>
+                </p>
+            </div>
+            <!-- container Section 3.3 -->
+            <div style="height: auto;
+                        background-color: rgb(140, 127, 255); 
+                        padding: 10px; 
+                        flex: 33%;">
+                <h2>TO-DO List</h2>
+                <ul style="height: 95px;">
+                    <li>Read half hour</li>
+                    <li>Meet with my leader</li>
+                    <li>Create a pull request</li>
+                    <li>Go to the meetup</li>
+                </ul>
+            </div>
+        </div>
+        <footer id="footer">
+            Here is the footer 
+        </footer>
+    </body>
+</html>
