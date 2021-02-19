@@ -215,3 +215,19 @@ Below is shown a list of elements could be used to construct a semantic code.
 ### Debugging
 
 The browser's interpret correct our type errors, but still being wrong, so for that reason exists a validator, it can be found in https://validator.w3.org/
+
+# Class 10
+
+## CSS declaration: Selectors, properties and values
+
+```
+selector {
+    declaration
+}
+```
+
+where
+
+declaration = `property:value;`
+
+**check class10.html** file
