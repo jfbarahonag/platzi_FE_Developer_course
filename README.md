@@ -231,3 +231,71 @@ where
 declaration = `property:value;`
 
 **check class10.html** file
+
+# Class 11
+
+## Selector types, pseudo-classes, pseudo-elements
+
+### Types of selectors
+
+There are different types of selectors, following are shown some of them:
+
+* UNIVERSAL
+```
+* {
+    margin : 0;
+}
+```
+* TYPE (not recommendable)
+```
+<type> {
+    color : red;
+}
+```
+* CLASS
+```
+.className {
+    font-size : 2cm;
+}
+```
+* ID (not recommendable)
+```
+#id {
+    border-radius : 20px;
+}
+```
+
+### Pseudo-classes
+
+Give us styles to specific classes
+
+* Apply some properties to the first child
+```
+p:first-child {
+    color : white;
+}
+```
+* Apply some properties to the last child
+```
+p:last-child {
+    color : white;
+}
+```
+* Apply some properties to the n-child
+```
+p:nth-child(n+2) {
+    color : white;
+}
+```
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">MDN Pseudo-classes</a>
+
+### Pseudo-elements
+
+Similar to pseudo-classes, nevertheless differ in syntax
+```
+p::first-letter {
+    color: blue;
+    text-transform: uppercase;
+}
+```
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">MDN Pseudo-elements</a>

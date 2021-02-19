@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 11</title>
+</head>
+<style>
+    /* Pseudo-classes*/
+    p:first-child {
+        color: pink;
+    }
+    p:last-child {
+        color : darkblue;
+    }
+    p:nth-child(2n) { /*it's a formula */
+        color:rgb(24, 109, 6);
+    }
+    p:nth-child(2n+1) { /*it's a formula */
+        color:rgb(18, 19, 17);
+    }
+    a:hover {
+        color: violet;
+    }
+    p:active {
+        height: 50px;
+    }
+    /* Pseudo-elements */
+    p::first-letter {
+        color: blue;
+        text-transform: uppercase;
+    }
+    p::first-line {
+        background-color: tomato;
+    }
+</style>
+<body>
+    <div = style="background-color: black;">
+        <a href="#">LINK</a>
+        <p >rabbit🐇<br>
+            hello world
+        </p>
+        <p>cat🐱</p>
+        <p>fox 🦊</p>
+        <p>cow🐄</p>
+        <p>frog 🐸</p>
+        <p>shrimp 🦐</p>
+    </div>
+</body>
+</html>
