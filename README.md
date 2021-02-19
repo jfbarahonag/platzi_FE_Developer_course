@@ -23,7 +23,7 @@ Is a markup language, that allow us to structure all our websites.
 
 * https://htmlreference.io/
 
-# CSS
+## CSS
 Is a stylesheet language. CSS help us to stylize our website. 
 
 * https://cssreference.io/
@@ -188,3 +188,19 @@ If you want to add JavaScript and/or CSS implementations the tags `style` and `s
 </ul>
 
 <a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">More elements here</a>
+
+# Class 8
+
+## Importance of a semantic code
+ 
+HTML semantic is give a sense and an structure to the design we are developing through the correct usage of the tags, making a code readable for the maintainers.
+
+Below is shown a list of elements could be used to construct a semantic code.
+
+- < header >
+- < section >
+- < i > , < em > -> italic , emphasis
+- < footer >
+
+
+
