@@ -302,7 +302,7 @@ p::first-letter {
 
 # Class 12
 
-## Box model, relative values and absolute values
+## Box model
 
 ALL HTML elements have a **box model** composed by:
 
@@ -313,4 +313,8 @@ ALL HTML elements have a **box model** composed by:
 
 This elements can modify all elements we construct.
 
-**check class12.html** file
+
+
+# Class 13
+
+**check class13.html** file
