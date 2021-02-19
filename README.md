@@ -299,3 +299,18 @@ p::first-letter {
 }
 ```
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">MDN Pseudo-elements</a>
+
+# Class 12
+
+## Box model, relative values and absolute values
+
+ALL HTML elements have a **box model** composed by:
+
+* content
+* padding
+* border
+* margin
+
+This elements can modify all elements we construct.
+
+**check class12.html** file

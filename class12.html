@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12</title>
+</head>
+
+<style>
+    /*
+    body {
+        margin: 0; To avoid the default margin of the pages (is a good practice)
+    }
+    */
+    .box {
+        width: 20px;
+        height: 20px;
+        padding: 20px; /*paddings always modify the box model BE CAREFUL!!*/
+        background-color: #a6f0c6;
+        border: 2px solid #4a47a3;
+        /*box-sizing: border-box; Respect the width and height (ignore padding effects) */
+    }
+
+    .box_2 {
+        width: 30px;
+        height: 30px;
+        background-color: #a1cae2;
+        border: 2px solid #4a47a3;
+        margin: 10px 20px 30px 40px;
+        /*box-sizing: border-box; Respect the width and height (ignore padding effects) */
+    }
+</style>
+
+<body>
+    <div class="box"></div>
+    <div class="box_2"></div>
+</body>
+</html>
