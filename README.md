@@ -202,5 +202,16 @@ Below is shown a list of elements could be used to construct a semantic code.
 - < i > , < em > -> italic , emphasis
 - < footer >
 
+# Class 9
 
+## HTML errors, debugging and tag validation service
 
+### Type of errors
+
+* Syntax errors: Related to typing errors.
+
+* Logic errors: Correct syntax, but the code does not work as expected.
+
+### Debugging
+
+The browser's interpret correct our type errors, but still being wrong, so for that reason exists a validator, it can be found in https://validator.w3.org/
