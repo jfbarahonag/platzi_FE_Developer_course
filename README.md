@@ -328,3 +328,20 @@ This elements can modify all elements we construct.
 ## Functions of the properties most used
 
 **check class13.html** file
+
+# Class 16
+
+## CSS Architectures
+
+### Objectives
+* Predictable -> Establish thumb rules
+* Reusable -> Avoid copy-paste inside the code
+* Maintainable -> A change wont implies a lot changes in functions or classes.
+* Scalable -> Not files with many lines of code
+
+### Good practices
+* Establish rules with the team
+* Base structure -> Introduce a new person to the project.
+* Code standards -> Do not break the standards.
+* Avoid large stylesheets.
+* Documentation -> Explaining complex routines.
