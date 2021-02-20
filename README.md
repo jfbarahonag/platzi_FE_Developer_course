@@ -313,8 +313,18 @@ ALL HTML elements have a **box model** composed by:
 
 This elements can modify all elements we construct.
 
-
-
 # Class 13
+
+**check class13.html** file
+
+# Class 14
+
+**check class13.html** file
+
+## CSS Displays
+
+# Class 15
+
+## Functions of the properties most used
 
 **check class13.html** file

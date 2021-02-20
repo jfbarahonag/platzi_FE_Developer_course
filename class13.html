@@ -8,6 +8,24 @@
 </head>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+
+    p {
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
+
     body {
         margin: 0%;
     }
@@ -15,8 +33,8 @@
     .dashboard {
         height: 100vh;
         width: 100vw;
-        background-color: #77d804;
-        background-image: linear-gradient(180deg, #77d804 0%, #51ff79 46%, #85e3ff 100%);
+        background-color: #D9AFD9;
+        background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
     }
 
     header {
@@ -24,6 +42,8 @@
         height: 80px;
         justify-content: space-between;
         display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
         /*
         background-color: #acf457;
         background-image: linear-gradient(90deg, #acf457 0%, #5eec87 46%, #85e3ff 100%);
@@ -43,15 +63,18 @@
     }
 
     .greeting {
-        width: 200;
-        font-family: arial,x-locale-body,sans-serif;
+        width: 200px;
+        font-family: 'Dancing Script', cursive;
         letter-spacing: -.0027777778rem;
         color: #583d72;
         image-rendering: pixelated;
+        opacity: 0.5;
+        text-align: center;
     }
 
     .logos {
         display: flex;
+        flex-direction: row;
         width: 75px;
         height: 27px;
     }
@@ -95,6 +118,10 @@
                 <a href="https://twitter.com/" target="_blank"><img src="imgs/twitter.png" alt="twitter logo" class="tw-logo"><br></a>
             </nav>
         </header>
+        <p>The Caterpillar and Alice looked at each other for some time in silence:
+            at last the Caterpillar took the hookah out of its mouth, and addressed
+            her in a languid, sleepy voice.</p>
+            
     </div>
 </body>
 </html>
