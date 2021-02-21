@@ -345,3 +345,33 @@ This elements can modify all elements we construct.
 * Code standards -> Do not break the standards.
 * Avoid large stylesheets.
 * Documentation -> Explaining complex routines.
+
+# Class 17
+
+## CSS methodologies 
+To keep our code maintainable and scalable.
+
+### OOCSS (OBJECT ORIENTED CSS)
+To divide design from content.
+
+### BEM (BLOCK ELEMENT MODIFIER)
+Separate blocks, elements and modifiers. 
+
+### SMACSS (SCALABLE MODULAR ARCHITECTURE CSS)
+1. Split the CSS in base components.
+2. Layout.
+3. Module.
+4. State.
+5. Themes.
+
+### ITCSS (INVERTED TRIANGLE CSS)
+Split out CSS files in certain parts to avoid mix with each other.
+
+### Atomic Design
+Chemical based.
+
+1. Atoms.
+2. Molecules
+3. Organisms.
+4. Templates.
+5. Pages.
