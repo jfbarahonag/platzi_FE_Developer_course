@@ -20,8 +20,8 @@
         padding-bottom: 10px;
     }
 
-    .carousel__item {
-        background-color: blueviolet;
+    .carousel-item {
+        /*background-color: blueviolet;*/
         width: 200px;
         height: 250px;
         border-radius: 20px;
@@ -31,29 +31,90 @@
         cursor: pointer;
         transition: 450ms all;
         transform-origin: center left;
+        position: relative;
     }
 
-    .carousel__item:hover ~ .carousel__item {
+    .carousel-item:hover ~ .carousel-item {
         transform: translate3d(100px,0,0); /*Move to the right */
     }
 
-    .carousel__container:hover .carousel__item {
+    .carousel__container:hover .carousel-item {
         opacity: 0.3;
     }
 
-    .carousel__container:hover .carousel__item:hover {
+    .carousel__container:hover .carousel-item:hover {
         transform: scale(1.5);
         opacity: 1;
     }
+
+    .carousel-item__img {
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .carousel-item__details {
+        background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+        font-size: 10px;
+        opacity: 0;
+        transition: 450ms opacity;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: right;
+    }
+
+    .carousel-item__details img {
+        width: 20px;
+        height: 20px;
+        margin-left: 2px;
+    }
+
+    .carousel-item__details p {
+        margin: 0;
+    }
+
+    .carousel-item:hover .carousel-item__details {
+        opacity: 1;
+        color: white;
+    }
+
 </style>
 <body>
     <section class="carousel">
         <div class="carousel__container">
-            <div class="carousel__item">
-
+            <div class="carousel-item">
+                <img class="carousel-item__img" src="imgs/item-1.jpg" alt="item 1">
+                <div class="carousel-item__details">
+                    <div>
+                        <img src="PlatziVideo/icons8-play-64.png" alt="">
+                        <img src="PlatziVideo/icons8-plus-64.png" alt="">
+                    </div>
+                    <div>
+                        <p class="carousel-item__details--title">Titulo descriptivo</p>
+                        <p class="carousel-item__details--subtitle">2019 16+ 1114 minutos</p>
+                    </div>
+                </div>
             </div>
-            <div class="carousel__item">
-
+            <div class="carousel-item">
+                <img class="carousel-item__img" src="imgs/item-2.jpg" alt="item 2">
+                <div class="carousel-item__details">
+                    <div>
+                        <img src="PlatziVideo/icons8-play-64.png" alt="">
+                        <img src="PlatziVideo/icons8-plus-64.png" alt="">
+                    </div>
+                    <div>
+                        <p class="carousel-item__details--title">Titulo descriptivo</p>
+                        <p class="carousel-item__details--subtitle">2020 21+ 1245 minutos</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
