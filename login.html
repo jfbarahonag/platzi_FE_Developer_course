@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap" rel="stylesheet">  
+    <title>Login</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Muli', sans-serif;
+    }
+    .header {
+        font-family: 'Mulish', sans-serif;
+        width: 100%;
+        height: 80px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background-color: #D9AFD9;
+        background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+        align-items: center;
+    }
+    .header__img {
+        margin-left: 30px;
+        width: 150px;
+        height: 50px;
+    }
+</style>
+<body>
+    <header class="header">
+        <img class="header__img" src="PlatziVideo/logo-platzi-video.png" alt="Logo platzi logo-platzi-video">
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2>Inicio de sesion</h2>
+            <form class="login__container-form">
+                <input class="input" type="text" placeholder="Correo">
+                <input class="input" type="password" placeholder="Contraseña">
+                <button class="button">Iniciar Sesion</button>
+                <div class="login__container--remember-me">
+                    <label>
+                        <input type="checkbox" id="cb1" value="checkbox">Recuerdame
+                    </label>
+                    <a href="#">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__container--social-media">
+                <div><img src="./PlatziVideo/icons8-google-plus-50.png" alt="">Inicia sesión con Google</div>
+                <div><img src="./PlatziVideo/icons8-twitter-50.png" alt="">Inicia sesión con Twitter</div>
+            </section>
+            <p class="login__container--register">No tienes ninguna cuenta <a href="#">Regístrate</a></p>
+        </section>
+    </section>
+    <footer class="footer">
+        <a href="#">Términos de uso</a>
+        <a href="#">Declaración de privacidad</a>
+        <a href="#">Centro de ayuda</a>
+    </footer>
+</body>
+</html>
